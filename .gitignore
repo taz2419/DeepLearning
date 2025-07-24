@@ -33,23 +33,11 @@ htmlcov/
 .idea/
 .DS_Store
 
-# Machine Learning data files
+# Training data files (exclude these)
 *.npy
 *.npz
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.weights
-*.ckpt
-*.pb
-*.pth
-*.tar
-*.zip
 data/
 datasets/
-models/
-checkpoints/
 logs/
 tensorboard_logs/
 *.csv
@@ -57,4 +45,20 @@ tensorboard_logs/
 *.parquet
 synthetic_images.npy
 synthetic_labels.npy
-cifar10_cgan_generator.keras
+
+# Allow trained models (include these)
+# *.h5
+# *.hdf5
+# *.keras
+# *.pkl
+# *.pickle
+# *.weights
+# *.ckpt
+# *.pb
+# *.pth
+# models/
+# checkpoints/
+
+# Large archive files (exclude these)
+*.tar
+*.zip
