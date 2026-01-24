@@ -1,0 +1,60 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Generated Synthetic Data
+data/WassersteinLoss/
+*.npy
+
+# Model files (large binary files)
+models/wgan/
+models/wgan_test_verification/
+models/wgan_local_bundle_train*/
+*.keras
+*.h5
+*.ckpt
+
+# TensorBoard logs
+logs/
+*.tfevents.*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Kaggle outputs (if downloading from Kaggle)
+kaggle_outputs/
+
+# Zip archives
+*.zip
